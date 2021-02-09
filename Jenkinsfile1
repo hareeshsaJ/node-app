@@ -6,11 +6,7 @@ pipeline {
     stages{
         stage("Build Docker Image"){
             steps{
-<<<<<<< HEAD
                 sh "docker build . -t hareeshsa/nodeapp:${DOCKER_TAG}"
-=======
-                sh "docker build -t hareeshsa/nodeapp:${DOCKER_TAG}"
->>>>>>> 9d913b9e1eca4e65ac7966f9c315f9b406df5d84
             }
         }
     }
